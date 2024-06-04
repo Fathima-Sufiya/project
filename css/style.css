@@ -504,26 +504,6 @@ footer .top .one {
     /* Add padding left to one element */
     padding-left: 50px;
 }
-footer .top .one h5 { 
-    /* Set font size for h5 element */
-    font-size: 18px;
-    /* Set color of h5 element */
-    color: #fff;
-    /* Set font weight of h5 element to bold */
-    font-weight: bold;
-}
-
-/* Styles for unordered list element within footer .top .one */
-footer .top .one ul { 
-    /* Add padding top to unordered list element */
-    padding-top: 20px;
-}
-/* Styles for anchor elements within footer .top .one ul li */
-footer .top .one ul li a { 
-    /* Set color of anchor elements */
-    color: #fff;
-    font-size: 15px;
-}
 
 /* Styles for two, three, four, and five elements within footer .top */
 footer .top .two, footer .top .three, footer .top .four, footer .top .five { 
@@ -532,7 +512,7 @@ footer .top .two, footer .top .three, footer .top .four, footer .top .five {
 }
 
 /* Styles for h5 elements within footer .top .two, .three, .four, .five */
-footer .top .two h5, footer .top .three h5, footer .top .four h5, footer .top .five h5 { 
+footer .top .one h5, footer .top .two h5, footer .top .three h5, footer .top .four h5, footer .top .five h5 { 
     /* Set font size for h5 elements */
     font-size: 18px;
     /* Set color of h5 elements */
@@ -542,19 +522,19 @@ footer .top .two h5, footer .top .three h5, footer .top .four h5, footer .top .f
 }
 
 /* Styles for unordered list elements within footer .top .two, .three, .four, .five */
-footer .top .two ul, footer .top .three ul, footer .top .four ul { 
+footer .top .one ul, footer .top .two ul, footer .top .three ul, footer .top .four ul { 
     /* Add padding top to unordered list elements */
     padding-top: 20px;
 }
 
 /* Styles for list items within footer .top .two, .three, .four, .five ul */
-footer .top .two ul li, footer .top .three ul li, footer .top .four ul li { 
+footer .top .one ul li, footer .top .two ul li, footer .top .three ul li, footer .top .four ul li { 
     /* Add padding top to list items */
     padding-top: 20px;
 }
 
 /* Styles for anchor elements within footer .top .two, .three, .four, .five ul li */
-footer .top .two ul li a, footer .top .three ul li a, footer .top .four ul li a{ 
+footer .top .one ul li a, footer .top .two ul li a, footer .top .three ul li a, footer .top .four ul li a{ 
     /* Set color of anchor elements */
     color: #fff;
 }
